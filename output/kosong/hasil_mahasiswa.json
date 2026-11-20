@@ -1,0 +1,12 @@
+{
+  "ringkasan": {
+    "jumlah": 0,
+    "rata_rata": null,
+    "minimum": null,
+    "maksimum": null,
+    "lulus": 0,
+    "ada_nilai_90": false
+  },
+  "rekap_per_prodi": {},
+  "mahasiswa": []
+}

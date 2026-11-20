@@ -1,0 +1,6 @@
+[
+  {"nim": "2401001", "name": "Nadia", "program": "Teknik Komputer", "score": 95, "attendance": 98},
+  {"nim": "2401002", "name": "Oka", "program": "Informatika", "score": 0, "attendance": 100},
+  {"nim": "2401003", "name": "Putra", "program": "Informatika", "score": true, "attendance": 90},
+  {"nim": 2401004, "name": "Qori", "program": "Sistem Informasi", "score": 70, "attendance": 80}
+]

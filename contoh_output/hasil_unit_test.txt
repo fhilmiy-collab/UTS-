@@ -1,0 +1,26 @@
+test_filter_dan_group (test_app.TestAnalysis.test_filter_dan_group) ... ok
+test_ringkasan_kosong_tanpa_bagi_nol (test_app.TestAnalysis.test_ringkasan_kosong_tanpa_bagi_nol) ... ok
+test_ringkasan_lima_data_awal (test_app.TestAnalysis.test_ringkasan_lima_data_awal) ... ok
+test_with_status_tidak_mengubah_asli (test_app.TestAnalysis.test_with_status_tidak_mengubah_asli) ... ok
+test_file_tidak_ada (test_app.TestFiles.test_file_tidak_ada) ... ok
+test_format_tidak_didukung (test_app.TestFiles.test_format_tidak_didukung) ... ok
+test_json_rusak_dan_kolom_kurang (test_app.TestFiles.test_json_rusak_dan_kolom_kurang) ... ok
+test_pipeline_csv_contoh (test_app.TestFiles.test_pipeline_csv_contoh) ... Record 12 ditolak: Nama wajib berupa teks tidak kosong
+ok
+test_simpan_dan_baca_ulang (test_app.TestFiles.test_simpan_dan_baca_ulang) ... ok
+test_add_tanpa_mutasi (test_app.TestRecords.test_add_tanpa_mutasi) ... ok
+test_cari (test_app.TestRecords.test_cari) ... ok
+test_nim_duplikat (test_app.TestRecords.test_nim_duplikat) ... ok
+test_remove_duplicates (test_app.TestRecords.test_remove_duplicates) ... ok
+test_batas_kehadiran (test_app.TestStatus.test_batas_kehadiran) ... ok
+test_batas_nilai (test_app.TestStatus.test_batas_nilai) ... ok
+test_nol_bukan_data_hilang (test_app.TestStatus.test_nol_bukan_data_hilang) ... ok
+test_prioritas_dewi (test_app.TestStatus.test_prioritas_dewi) ... ok
+test_angka (test_app.TestValidation.test_angka) ... ok
+test_student_tidak_valid (test_app.TestValidation.test_student_tidak_valid) ... ok
+test_student_valid_dan_strip (test_app.TestValidation.test_student_valid_dan_strip) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.003s
+
+OK

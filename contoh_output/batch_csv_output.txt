@@ -1,0 +1,32 @@
+Dibaca: 15 record | Valid: 10 | Ditolak: 5
+  - record 11: NIM 2301001 duplikat
+  - record 12: Nama wajib berupa teks tidak kosong
+  - record 13: Nilai harus bilangan bulat 0-100
+  - record 14: Nilai harus bilangan bulat, diterima 'abc'
+  - record 15: Nilai wajib diisi
+
+1. 2301001 | Andi | Teknik Komputer | 85 | Lulus
+2. 2301002 | Budi | Informatika | 72 | Remedial
+3. 2301003 | Citra | Teknik Komputer | 92 | Lulus dengan Pujian
+4. 2301004 | Dewi | Sistem Informasi | 88 | Peringatan Kehadiran
+5. 2301005 | Eka | Informatika | 0 | Tidak Lulus
+6. 2301006 | Fajar | Teknik Komputer | 60 | Remedial
+7. 2301007 | Gita | Sistem Informasi | 90 | Lulus dengan Pujian
+8. 2301008 | Hana | Informatika | 59 | Tidak Lulus
+9. 2301009 | Ilham | Teknik Komputer | 80 | Peringatan Kehadiran
+10. 2301015 | Mira | Informatika | 77 | Remedial
+
+Jumlah: 10
+Rata-rata: 70.30
+Minimum: 0 | Maksimum: 92
+Lulus: 3
+Ada nilai >= 90: True
+
+Rekap per program studi:
+- Informatika: 4 mahasiswa, rata-rata 52.00, lulus 0
+- Sistem Informasi: 2 mahasiswa, rata-rata 89.00, lulus 1
+- Teknik Komputer: 4 mahasiswa, rata-rata 79.25, lulus 2
+
+Tersimpan: output/hasil_mahasiswa.json
+Tersimpan: output/hasil_mahasiswa.csv
+Tersimpan: output/ditolak.csv

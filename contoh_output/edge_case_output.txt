@@ -1,0 +1,29 @@
+$ python main.py --batch --input tidak_ada.csv
+Error: File tidak ditemukan: tidak_ada.csv
+(exit code: 1)
+
+$ python main.py --batch --input data/edge_json_rusak.json
+Error: JSON tidak valid di edge_json_rusak.json: Expecting ',' delimiter: line 1 column 27 (char 26)
+(exit code: 1)
+
+$ python main.py --batch --input data/edge_kolom_kurang.csv
+Error: Kolom CSV kurang: attendance, program, score
+(exit code: 1)
+
+$ python main.py --batch --input data/mahasiswa_input.txt
+Error: File tidak ditemukan: data/mahasiswa_input.txt
+(exit code: 1)
+
+$ python main.py --batch --input data/edge_kosong.csv   # list kosong
+Dibaca: 0 record | Valid: 0 | Ditolak: 0
+
+Belum ada data.
+
+Belum ada data.
+
+Belum ada data.
+
+Tersimpan: output/kosong/hasil_mahasiswa.json
+Tersimpan: output/kosong/hasil_mahasiswa.csv
+Tersimpan: output/kosong/ditolak.csv
+(exit code: 0)

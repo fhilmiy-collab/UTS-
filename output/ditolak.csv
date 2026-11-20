@@ -1,0 +1,6 @@
+record,reason
+11,NIM 2301001 duplikat
+12,Nama wajib berupa teks tidak kosong
+13,Nilai harus bilangan bulat 0-100
+14,"Nilai harus bilangan bulat, diterima 'abc'"
+15,Nilai wajib diisi

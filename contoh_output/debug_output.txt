@@ -1,0 +1,16 @@
+$ python debug/debug_scenario.py 1   # SEBELUM perbaikan (traceback)
+Traceback (most recent call last):
+  File "/home/claude/uts-student-data-analyzer/debug/debug_scenario.py", line 32, in <module>
+    print("Rata-rata:", buggy_average([]))
+                        ^^^^^^^^^^^^^^^^^
+  File "/home/claude/uts-student-data-analyzer/debug/debug_scenario.py", line 10, in buggy_average
+    return sum(scores) / len(scores)          # BUG 1: list kosong -> bagi nol
+           ~~~~~~~~~~~~^~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+$ python debug/debug_scenario.py 2   # bug logika: nilai 0 ditolak oleh versi buggy
+ None buggy=False  fixed=False
+    0 buggy=False  fixed=True
+  100 buggy=True   fixed=True
+  101 buggy=False  fixed=False
+fixed_average([]) = None

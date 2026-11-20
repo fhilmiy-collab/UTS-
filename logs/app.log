@@ -1,0 +1,64 @@
+2026-11-19 15:26:28,393 INFO studentapp.cli: Menu dibuka
+2026-11-19 15:26:31,796 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 15:26:31,797 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 15:26:31,797 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 15:26:31,797 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 15:26:31,797 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 15:26:31,797 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 15:26:51,787 INFO studentapp.cli: Menu dibuka
+2026-11-19 15:26:53,834 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 15:26:53,836 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 15:26:53,836 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 15:26:53,836 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 15:26:53,836 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 15:26:53,836 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 15:27:43,337 INFO studentapp.records: Mahasiswa ditambahkan
+2026-11-19 17:11:44,021 INFO studentapp.cli: Menu dibuka
+2026-11-19 17:11:46,601 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 17:11:46,602 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 17:11:46,602 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:11:46,602 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 17:11:46,602 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 17:11:46,602 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 17:11:48,647 INFO studentapp.storage: Menulis JSON: output\hasil_mahasiswa.json
+2026-11-19 17:11:48,648 INFO studentapp.storage: Menulis CSV: output\hasil_mahasiswa.csv
+2026-11-19 17:12:15,852 INFO studentapp.cli: Program selesai
+2026-11-19 17:12:18,079 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 17:12:18,079 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 17:12:18,079 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:12:18,079 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 17:12:18,079 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 17:12:18,079 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 17:12:18,082 INFO studentapp.storage: Menulis JSON: output\hasil_mahasiswa.json
+2026-11-19 17:12:18,082 INFO studentapp.storage: Menulis CSV: output\hasil_mahasiswa.csv
+2026-11-19 17:12:18,083 INFO studentapp.storage: Menulis CSV: output\ditolak.csv
+2026-11-19 17:12:18,083 INFO studentapp.pipeline: Batch selesai: 10 valid, 5 ditolak
+2026-11-19 17:17:50,061 INFO studentapp.cli: Menu dibuka
+2026-11-19 17:17:54,624 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 17:17:54,625 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 17:17:54,625 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:17:54,625 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 17:17:54,625 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 17:17:54,625 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 17:18:00,207 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:18:19,601 WARNING studentapp.cli: Input ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:18:39,997 WARNING studentapp.cli: Input ditolak: Kehadiran harus bilangan bulat 0-100
+2026-11-19 17:18:50,519 INFO studentapp.records: Mahasiswa ditambahkan
+2026-11-19 17:21:58,356 INFO studentapp.cli: Menu dibuka
+2026-11-19 17:22:06,214 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:23:03,823 WARNING studentapp.cli: Input ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:23:26,457 WARNING studentapp.cli: Input ditolak: Kehadiran harus bilangan bulat 0-100
+2026-11-19 17:23:41,125 INFO studentapp.records: Mahasiswa ditambahkan
+2026-11-19 17:23:58,592 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:23:58,803 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:23:59,000 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:23:59,182 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:23:59,344 WARNING studentapp.cli: Input ditolak: NIM wajib berupa teks tidak kosong
+2026-11-19 17:24:11,200 INFO studentapp.cli: Menu dibuka
+2026-11-19 17:24:13,058 INFO studentapp.storage: Membaca 15 record dari mahasiswa_input.csv
+2026-11-19 17:24:13,059 WARNING studentapp.pipeline: Record 12 ditolak: Nama wajib berupa teks tidak kosong
+2026-11-19 17:24:13,059 WARNING studentapp.pipeline: Record 13 ditolak: Nilai harus bilangan bulat 0-100
+2026-11-19 17:24:13,059 WARNING studentapp.pipeline: Record 14 ditolak: Nilai harus bilangan bulat, diterima 'abc'
+2026-11-19 17:24:13,059 WARNING studentapp.pipeline: Record 15 ditolak: Nilai wajib diisi
+2026-11-19 17:24:13,059 WARNING studentapp.pipeline: Record 11 ditolak: NIM duplikat
+2026-11-19 17:24:48,088 WARNING studentapp.cli: NIM 2301001 sudah terdaftar

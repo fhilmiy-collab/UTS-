@@ -1,0 +1,118 @@
+{
+  "ringkasan": {
+    "jumlah": 10,
+    "rata_rata": 70.3,
+    "minimum": 0,
+    "maksimum": 92,
+    "lulus": 3,
+    "ada_nilai_90": true
+  },
+  "rekap_per_prodi": {
+    "Teknik Komputer": {
+      "jumlah": 4,
+      "rata_rata": 79.25,
+      "minimum": 60,
+      "maksimum": 92,
+      "lulus": 2,
+      "ada_nilai_90": true
+    },
+    "Informatika": {
+      "jumlah": 4,
+      "rata_rata": 52.0,
+      "minimum": 0,
+      "maksimum": 77,
+      "lulus": 0,
+      "ada_nilai_90": false
+    },
+    "Sistem Informasi": {
+      "jumlah": 2,
+      "rata_rata": 89.0,
+      "minimum": 88,
+      "maksimum": 90,
+      "lulus": 1,
+      "ada_nilai_90": true
+    }
+  },
+  "mahasiswa": [
+    {
+      "nim": "2301001",
+      "name": "Andi",
+      "program": "Teknik Komputer",
+      "score": 85,
+      "attendance": 92,
+      "status": "Lulus"
+    },
+    {
+      "nim": "2301002",
+      "name": "Budi",
+      "program": "Informatika",
+      "score": 72,
+      "attendance": 81,
+      "status": "Remedial"
+    },
+    {
+      "nim": "2301003",
+      "name": "Citra",
+      "program": "Teknik Komputer",
+      "score": 92,
+      "attendance": 95,
+      "status": "Lulus dengan Pujian"
+    },
+    {
+      "nim": "2301004",
+      "name": "Dewi",
+      "program": "Sistem Informasi",
+      "score": 88,
+      "attendance": 70,
+      "status": "Peringatan Kehadiran"
+    },
+    {
+      "nim": "2301005",
+      "name": "Eka",
+      "program": "Informatika",
+      "score": 0,
+      "attendance": 80,
+      "status": "Tidak Lulus"
+    },
+    {
+      "nim": "2301006",
+      "name": "Fajar",
+      "program": "Teknik Komputer",
+      "score": 60,
+      "attendance": 75,
+      "status": "Remedial"
+    },
+    {
+      "nim": "2301007",
+      "name": "Gita",
+      "program": "Sistem Informasi",
+      "score": 90,
+      "attendance": 90,
+      "status": "Lulus dengan Pujian"
+    },
+    {
+      "nim": "2301008",
+      "name": "Hana",
+      "program": "Informatika",
+      "score": 59,
+      "attendance": 100,
+      "status": "Tidak Lulus"
+    },
+    {
+      "nim": "2301009",
+      "name": "Ilham",
+      "program": "Teknik Komputer",
+      "score": 80,
+      "attendance": 74,
+      "status": "Peringatan Kehadiran"
+    },
+    {
+      "nim": "2301015",
+      "name": "Mira",
+      "program": "Informatika",
+      "score": 77,
+      "attendance": 88,
+      "status": "Remedial"
+    }
+  ]
+}

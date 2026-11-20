@@ -1,0 +1,186 @@
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Belum ada data.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Belum ada data.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Path file [data/mahasiswa_input.csv]: 10 data valid, 5 ditolak.
+  - record 11: NIM 2301001 duplikat
+  - record 12: Nama wajib berupa teks tidak kosong
+  - record 13: Nilai harus bilangan bulat 0-100
+  - record 14: Nilai harus bilangan bulat, diterima 'abc'
+  - record 15: Nilai wajib diisi
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: NIM: Nama: Input salah: Nama wajib berupa teks tidak kosong
+Nama: Program studi: Nilai (0-100): Input salah: Nilai harus bilangan bulat, diterima 'abc'
+Nilai (0-100): Input salah: Nilai harus bilangan bulat 0-100
+Nilai (0-100): Kehadiran (0-100): Input salah: Kehadiran harus bilangan bulat 0-100
+Kehadiran (0-100): Data ditambahkan.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: NIM: Nama: Program studi: Nilai (0-100): Kehadiran (0-100): Ditolak: NIM 2301099 sudah terdaftar
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: NIM yang dicari: Mahasiswa tidak ditemukan.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: NIM yang dicari: NIM       : 2301099
+Nama      : Zaki
+Prodi     : Teknik Komputer
+Nilai     : 0
+Kehadiran : 75%
+Status    : Tidak Lulus
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: 1. Peringatan Kehadiran
+2. Lulus dengan Pujian
+3. Lulus
+4. Remedial
+5. Tidak Lulus
+Pilih status: 1. 2301005 | Eka | Informatika | 0 | Tidak Lulus
+2. 2301008 | Hana | Informatika | 59 | Tidak Lulus
+3. 2301099 | Zaki | Teknik Komputer | 0 | Tidak Lulus
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: 1. Peringatan Kehadiran
+2. Lulus dengan Pujian
+3. Lulus
+4. Remedial
+5. Tidak Lulus
+Pilih status: Pilihan status tidak valid.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Rekap per program studi:
+- Informatika: 4 mahasiswa, rata-rata 52.00, lulus 0
+- Sistem Informasi: 2 mahasiswa, rata-rata 89.00, lulus 1
+- Teknik Komputer: 5 mahasiswa, rata-rata 63.40, lulus 2
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Tersimpan: output/hasil_mahasiswa.json
+Tersimpan: output/hasil_mahasiswa.csv
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Pilihan tidak tersedia.
+
+=== STUDENT DATA ANALYZER ===
+1. Muat data dari file (CSV/JSON)
+2. Tambah mahasiswa
+3. Tampilkan daftar
+4. Cari berdasarkan NIM
+5. Filter berdasarkan status
+6. Rekap per program studi
+7. Ringkasan
+8. Simpan hasil (JSON + CSV)
+9. Keluar
+Pilihan: Selesai.

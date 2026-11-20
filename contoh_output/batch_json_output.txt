@@ -1,0 +1,20 @@
+Dibaca: 4 record | Valid: 2 | Ditolak: 2
+  - record 3: Nilai harus bilangan bulat 0-100
+  - record 4: NIM wajib berupa teks tidak kosong
+
+1. 2401001 | Nadia | Teknik Komputer | 95 | Lulus dengan Pujian
+2. 2401002 | Oka | Informatika | 0 | Tidak Lulus
+
+Jumlah: 2
+Rata-rata: 47.50
+Minimum: 0 | Maksimum: 95
+Lulus: 1
+Ada nilai >= 90: True
+
+Rekap per program studi:
+- Informatika: 1 mahasiswa, rata-rata 0.00, lulus 0
+- Teknik Komputer: 1 mahasiswa, rata-rata 95.00, lulus 1
+
+Tersimpan: output/json/hasil_mahasiswa.json
+Tersimpan: output/json/hasil_mahasiswa.csv
+Tersimpan: output/json/ditolak.csv

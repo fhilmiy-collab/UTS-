@@ -1,0 +1,46 @@
+{
+  "ringkasan": {
+    "jumlah": 2,
+    "rata_rata": 47.5,
+    "minimum": 0,
+    "maksimum": 95,
+    "lulus": 1,
+    "ada_nilai_90": true
+  },
+  "rekap_per_prodi": {
+    "Teknik Komputer": {
+      "jumlah": 1,
+      "rata_rata": 95.0,
+      "minimum": 95,
+      "maksimum": 95,
+      "lulus": 1,
+      "ada_nilai_90": true
+    },
+    "Informatika": {
+      "jumlah": 1,
+      "rata_rata": 0.0,
+      "minimum": 0,
+      "maksimum": 0,
+      "lulus": 0,
+      "ada_nilai_90": false
+    }
+  },
+  "mahasiswa": [
+    {
+      "nim": "2401001",
+      "name": "Nadia",
+      "program": "Teknik Komputer",
+      "score": 95,
+      "attendance": 98,
+      "status": "Lulus dengan Pujian"
+    },
+    {
+      "nim": "2401002",
+      "name": "Oka",
+      "program": "Informatika",
+      "score": 0,
+      "attendance": 100,
+      "status": "Tidak Lulus"
+    }
+  ]
+}
