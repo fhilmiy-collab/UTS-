@@ -6,7 +6,7 @@ lalu menyimpan hasil ke JSON dan CSV.
 
 - Nama / NIM / Kelas : Fauzi Hilmiy Ahmad
 - Dosen pengampu     : Muhammad Koprawi, S.Kom., M.Eng
-- Repository         : _(isi URL repository)_
+- Repository         : (https://github.com/fhilmiy-collab/UTS-.git)
 
 ## 1. Persyaratan & Dependency
 - Python **3.10+** (diuji dengan 3.12). Cek: `python --version` (atau `python3 --version`).
